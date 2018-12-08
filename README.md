@@ -1,8 +1,10 @@
-カーネギーメロン大学のLuca Damascoさんが作ったGalucaというゲーム(2015)をRaspberry PiやRaspberry Pi Desktop（PC/Mac）の環境で動かせるようにしました。Python２でPygameを使って書かれています。元々はGalaga（ギャラガ）というアーケードゲームのリメイクです。タイトーのスペース・インベーダー(1978)大ヒットに続いてナムコが送り出したGalaxian(1979), Galaga(1981), Gaplus(1984)３部作の２作目に当たります。フルカラー化、編隊を組んでの降下攻撃などスペース・インベーダーから大幅にアップデートされたシューティングゲーム黎明期の名作です。
 
-カーネギーメロン大学のプログラミング初学者向け講座での課題で制作されたようで、敵機の襲来パターンをカスタマイズできる機能が追加されています。
 
-緑色のClone or downloadボタン -> Download ZIPのあと、以下のコマンドで起動します。
+### カーネギーメロン大学のLuca Damascoさんが作ったGalucaというゲーム(2015)をRaspberry PiやRaspberry Pi Desktop（PC/Mac）の環境で動かせるようにしました。Python２でPygameを使って書かれています。元々はGalaga（ギャラガ）というアーケードゲームのリメイクです。タイトーのスペース・インベーダー(1978)大ヒットに続いてナムコが送り出したGalaxian(1979), Galaga(1981), Gaplus(1984)３部作の２作目に当たります。フルカラー化、編隊を組んでの降下攻撃などスペース・インベーダーから大幅にアップデートされたシューティングゲーム黎明期の名作です。
+
+## カーネギーメロン大学のプログラミング初学者向け講座での課題で制作されたようで、敵機の襲来パターンをカスタマイズできる機能が追加されています。
+
+#### 緑色のClone or downloadボタン -> Download ZIPのあと、以下のコマンドで起動します。
 ```
 $ unzip Galuca-master.zip
 $ cd Galuca-master
@@ -12,7 +14,7 @@ $ python Galuca-Final.py
 
 
 
- This is the README for GALUCA
+This is the README for GALUCA
 	Created by Luca Damasco
 ----------------------------------------
 Galuca was created as a term project for Carnegie Mellon
@@ -43,7 +45,7 @@ CopyRight notices:
 	(Found on google images when searching "Galaga Sprite Sheets")
 
 	Sounds are from Namco-Midway's GALAGA
-	Sounds were purchased from iTunes under "Galaga" by NAMCO SOUNDS
+	Sounds were purchased from iTunes under "Galaga" by NAMCO SOUNDS@
 
 	Logo Materials taken from:
 	http://gamingbolt.com/tag/galaga
