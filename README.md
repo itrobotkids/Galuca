@@ -68,3 +68,4 @@ Mouse controls for start screen UI
 
 To reset HiScores, delete every line from the "hiScores.txt" 
 file except the first line 20,000. DO NOT LEAVE IT BLANK!
+*おはよう*
