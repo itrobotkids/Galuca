@@ -1,8 +1,8 @@
-カーネギーメロン大学のLuca Damascoさんが作ったGalucaというゲーム(2015)をRaspberry PiやRaspberry Pi Desktop（PC/Mac）の環境で動かせるようにしました。Python２でPygameを使って書かれています。元々はGalaga（ギャラガ）というアーケードゲームのリメイクです。タイトーのスペース・インベーダー(1978)大ヒットに続いてナムコが送り出したGalaxian(1979), Galaga(1981), Gaplus(1984)３部作の２作目に当たります。フルカラー化、編隊を組んでの降下攻撃などスペース・インベーダーから大幅にアップデートされたシューティングゲーム黎明期の名作です。
+### カーネギーメロン大学のLuca Damascoさんが作ったGalucaというゲーム(2015)をRaspberry PiやRaspberry Pi Desktop（PC/Mac）の環境で動かせるようにしました。Python２でPygameを使って書かれています。元々はGalaga（ギャラガ）というアーケードゲームのリメイクです。タイトーのスペース・インベーダー(1978)大ヒットに続いてナムコが送り出したGalaxian(1979), Galaga(1981), Gaplus(1984)３部作の２作目に当たります。フルカラー化、編隊を組んでの降下攻撃などスペース・インベーダーから大幅にアップデートされたシューティングゲーム黎明期の名作です。
 
-カーネギーメロン大学のプログラミング初学者向け講座での課題で制作されたようで、敵機の襲来パターンをカスタマイズできる機能が追加されています。
+#### カーネギーメロン大学のプログラミング初学者向け講座での課題で制作されたようで、敵機の襲来パターンをカスタマイズできる機能が追加されています。
 
-緑色のClone or downloadボタン -> Download ZIPのあと、以下のコマンドで起動します。
+- 緑色のClone or downloadボタン -> Download ZIPのあと、以下のコマンドで起動します。
 ```
 $ unzip Galuca-master.zip
 $ cd Galuca-master
@@ -11,11 +11,10 @@ $ python Galuca-Final.py
 ----------------------------------------
 
 
-
  This is the README for GALUCA
 	Created by Luca Damasco
 ----------------------------------------
-Galuca was created as a term project for Carnegie Mellon
+- Galuca was created as a term project for Carnegie Mellon
 University's Introduction to Programming class 15-112. It 
 is meant to replicate the fixed shooter arcade game Galaga
 (originally published in 1981 by Namco and Midway). It also aims
@@ -25,11 +24,11 @@ determining movement patterns of enemies based on the location of the
 fighter, movement of enemies in formation, and translation of user 
 generated paths and sprites into functional game movement algorithms. 
  
-Programming Language:
+ - Programming Language:
 	Python 2.7 32 bit
 	#Pygame 1.9 only has 32 bit support and will not run with 64 bit versions. 
 
-Module's Used: 
+ - Module's Used: 
 	Pygame 1.9
 		Downloaded from Pygame.Org
 		The pygame audio mixer was also used. (packaged with pygame 1.9) 
@@ -68,3 +67,4 @@ Mouse controls for start screen UI
 
 To reset HiScores, delete every line from the "hiScores.txt" 
 file except the first line 20,000. DO NOT LEAVE IT BLANK!
+
