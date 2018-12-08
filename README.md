@@ -27,7 +27,7 @@ generated paths and sprites into functional game movement algorithms.
  
 Programming Language:
 	Python 2.7 32 bit
-	#Pygame 1.9 only has 32 bit support and will not run with 64 bit versions. 
+###### Pygame 1.9 only has 32 bit support and will not run with 64 bit versions. 
 
 Module's Used: 
 	Pygame 1.9
@@ -68,3 +68,10 @@ Mouse controls for start screen UI
 
 To reset HiScores, delete every line from the "hiScores.txt" 
 file except the first line 20,000. DO NOT LEAVE IT BLANK!
+***u***
+
+|  |  |  |
+--|--|--
+|01|02|03|
+|11|12|13|
+|21|22|23|
